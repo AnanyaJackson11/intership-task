@@ -26,6 +26,14 @@ app.include_router(transaction.router)
 app.include_router(summary.router)
 app.include_router(ranking.router)
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # For assignment/demo only
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.get("/")
 def root():
     return {"message": "Reward Ranking API is running"}
