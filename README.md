@@ -4,7 +4,7 @@
 
 **Frontend (Vercel):**
 
-> *(Insert your Vercel URL here)*
+> *(https://intership-task-pink.vercel.app/)*
 
 **Backend (Render):**
 
