@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "https://internship-task-63hc.onrender.com",
+  baseURL: "https://internship-task-api-q3a8.onrender.com/",
 });
 
